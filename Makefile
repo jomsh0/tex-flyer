@@ -7,4 +7,4 @@ flyer.pdf: flyer.tex img.jpg
 	tectonic $<
 
 img.jpg:
-	magick logo: img.jpg
+	magick -size 600x600 FRACTAL: img.jpg
